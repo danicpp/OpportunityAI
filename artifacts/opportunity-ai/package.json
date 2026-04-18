@@ -1,0 +1,29 @@
+{
+  "name": "@workspace/opportunity-ai",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.ts --host 0.0.0.0",
+    "build": "vite build --config vite.config.ts",
+    "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@replit/vite-plugin-cartographer": "catalog:",
+    "@replit/vite-plugin-dev-banner": "catalog:",
+    "@replit/vite-plugin-runtime-error-modal": "catalog:",
+    "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "@tailwindcss/vite": "catalog:",
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/node": "catalog:",
+    "svelte": "^5.34.4",
+    "svelte-check": "^4.2.1",
+    "tailwindcss": "catalog:",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "~5.9.2",
+    "vite": "catalog:",
+    "zod": "catalog:"
+  }
+}
